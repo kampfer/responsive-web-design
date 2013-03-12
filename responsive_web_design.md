@@ -21,7 +21,7 @@ Ethan Marcotte失败的[例子][3]
 
 ---
 
-#响应式网页设计的特征(实现原理)?
+#"响应式网页设计"到底是怎么做到的？
 
 ---
 
@@ -31,9 +31,29 @@ Ethan Marcotte失败的[例子][3]
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+什么是viewport?
+
+1. visual viewport
+2. layout viewport
+
+[A tale of two viewports — part one][5]
+
+[A tale of two viewports — part two][6]
+
+[5]: http://www.quirksmode.org/mobile/viewports.html
+[6]: http://www.quirksmode.org/mobile/viewports2.html
+
 ---
 
 ###不使用绝对宽度
+
+使用百分比宽度：
+
+    width: xx%;
+
+或者
+
+    width:auto;
 
 ---
 
